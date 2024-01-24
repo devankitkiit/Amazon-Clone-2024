@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0b0c0c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav_logo {
+    width: 100px;
+    height: 50px;
+
+}
+
+#amazon {
+    background-image: url("amz.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.2px solid white;
+}
+
+.add {
+
+    margin-left: 20px;
+}
+
+.loc {
+    color: #cccccc;
+    font-size: 0.8rem;
+}
+
+.india {
+    font-size: 1rem;
+}
+
+.loc {
+    margin-left: 12px;
+}
+
+.navsearch {
+
+    display: flex;
+    margin-left: 15px;
+}
+
+.pin {
+    display: flex;
+}
+
+.navsearch {
+
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.navsearch:hover {
+    border: 2px solid orange;
+}
+
+.slct {
+    background-color: #f6f2f2f8;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+
+}
+
+.holder {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+
+.search {
+    width: 45px;
+    height: 40 px;
+    background-color: #febd68;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+
+}
+
+span {
+    font-size: 12px;
+}
+
+.navsc {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cart i {
+    font-size: 30px;
+}
+
+.cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    color: white;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel2 p {
+    padding: 15px;
+    display: inline;
+}
+
+.panel2 {
+    width: 70%;
+}
+
+.hero {
+    height: 300px;
+    background-size: cover;
+    background-image: url(amzn.jpg);
+    display: flex;
+    justify-content: center;
+
+}
+
+#link {
+    font-size: 14px;
+    width: 95%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 230px;
+
+}
+
+.hero a {
+    color: #007185;
+}
+
+.shopping {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #054335;
+    width: 100%;
+    height: 920px;
+
+
+}
+
+.box {
+    height: 400px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 21px;
+    padding-top: 3px;
+    padding-left: 15px;
+}
+
+.boximg {
+    height: 330px;
+    width: 250px ;
+    background-size: contain;
+    /* background-size: cover; */
+    margin-left: 14px;
+    margin-top: 5px;
+}
+.boxcontent{
+width: 280px;
+}
+.more{
+    padding-top: 4px;
+    padding-left: 13px;
+    color: #007185;
+}
+.navfoot{
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footpanel2{
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center;
+    align-items: center; */
+    color: white;
+    background-color: #222f3d;
+    height: 300px;
+    font-size: 0.85rem;
+}
+ul{
+    margin-top: 40px;
+}
+ul a{
+    margin-top: 10px;
+    display: block;
+    font-size: 0.85rem;
+}
+ul p{
+   
+    font-weight: 1000;
+}
+.footlogo{
+    width: 75px;
+    height: 30px;
+    background-image: url("amz.png");
+    background-size: contain;
+    padding-left: 100px;
+}
+.footpanel3{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222f3d;
+    border-top: 0.1px solid grey;
+    color: white; */
+    display: flex;
+    background-color: #222f3d;
+    border-top: 0.1px solid grey;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.same{
+    border: 1px solid grey;
+    width: 150px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+#lang{
+    width: 150px;
+    height:30px;
+    border-radius: 4px;
+}
+.panel4{
+    width: 800px;
+    display: flex;
+    /* margin-left: 100px; */
+    color: white;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    
+}
+.collapse{
+    display: flex;
+    width: 700px;
+    margin-left: 200px;
+}
+
